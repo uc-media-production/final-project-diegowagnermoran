@@ -1,0 +1,230 @@
+/* Cascading Style Sheet */
+(.banner {
+    grid-column: span 4;
+})
+(
+container {
+    max-width: 1500px;
+    margin: 0 auto;
+})
+.html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.individualimage {
+    display:flex;
+    left: 0%;
+    top: 0%;
+    align-items: flex-start;
+    z-index: 1;
+}
+.body {
+    background-color: darkslategrey;
+    align-content: center;
+}
+
+.containergrid {
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    display: flex;
+    align-self: stretch;
+    align-content: space-evenly;
+    justify-content: center;
+    background: black;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.socialsbanner {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 1;
+    flex-direction: row;
+}
+.socials {
+    display: block;
+    align-self: stretch;
+    right: 0%;
+    top: 0%;
+    position:absolute;
+    z-index: 1;
+    background: #33cccc;
+    color: white;
+}
+.navigationtab {
+    width: 100%;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pnav {
+    font-size: 30px;
+    padding: 15px;
+    align-content: center;
+    margin: 0px 30px 30px 30px;
+    }
+
+
+
+h1 {
+    font-size: 3em;
+    padding: 10px 0;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 2em;
+    padding: 10px 0;
+    font-weight: 800;}
+h3 {
+    font-size: 1.7em;
+    padding: 10px 0;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.arcadetitle {
+    width: 1000px;
+    padding:250px 0;
+    text-align: center;
+    font-size: large;
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    align-self: center;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    align-content: center;
+    background: rgba(0, 0, 0, 0.623);
+}
+
+.arcadesubtitle {
+    font-size: 10;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.thetitlebuttons {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titlebutton {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 300;
+    margin: 30px;
+}
+
+
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    display: flex;
+    align-self: stretch;
+    align-content: space-evenly;
+    justify-content: center;
+    background: black;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyright {
+    position: fixed;
+    text-align: left;
+    display: flex;
+    bottom: 0%;
+    left: 0%;
+    justify-content: end;
+    flex-direction: row;
+    background: black;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+.withinthefooterbanner {
+    margin-left: 0%;
+    margin-right: 0%;
+    display: flex;
+}
+
+
+.textbox{
+    color: white;
+    position:absolute;
+    margin-top: 300px;
+}
+
+
+.individualimage{
+    display: block;
+    align-self: stretch;
+    left: 0%;
+    top: 0%;
+    margin-left: 40px;
+    margin-top: 20px;
+    position:absolute;
+    z-index: 1;
+}
+
+
+.individualimageheader{
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+
+
+.ital {
+font-style: italic;}
+
