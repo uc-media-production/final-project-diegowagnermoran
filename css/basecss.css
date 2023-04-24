@@ -225,8 +225,9 @@ h3 {
 
 .ital {
 font-style: italic;}
+
 <style type = "text/css">  
-   a:link {color: white;}  
+   a:link {color: white;}
    a:visited {color: white}  
    a:hover {color: yellow}  
    a:active {color: yellow}  
