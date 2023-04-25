@@ -41,3 +41,9 @@
     margin-right: auto;
     font-size: medium;
 }
+
+.email {
+    height: 50px;
+    min-height: 50px;
+    border: 4px yellow;
+    }
